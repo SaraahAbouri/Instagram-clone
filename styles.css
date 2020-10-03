@@ -357,20 +357,31 @@ main{
 }
 
 /* profile-page */
+.main-container{
+    background-color: #fafafa;
+    overflow-y: scroll;
+}
 
+.navbar{
+    background-color: white;
+}
 .profile-border{
     position: absolute;
     height:29px;
     width: 29px;
     top: 15px;
-    left: 1125.4px;
+    left: 1063px;
     border: 1px solid black;
     border-radius: 50%;
 }
 .personal-info{
     display: flex;
-    padding-left: 275px;
+    padding-left: 220px;
     padding-top: 25px;
+}
+
+.profile-info{
+    padding-left: 100px;
 }
 .profile-picture{
     border-radius: 50%;
@@ -385,6 +396,176 @@ main{
     width: 100%;
 }
 
+.username-buttons .profile-name{
+    font-size: 30px;
+    padding-right: 10px;
+    font-weight: 200;
+}
+
+.edit{
+    font-size: 14px;
+    border: 1px solid var(--color-border);
+    /* padding: 5px; */
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.username-buttons svg{
+    padding-left: 10px;
+    width: 35px;
+    height: 35px;
+    padding-bottom: 1px;
+}
+
+.posts-followers-following {
+    padding-top: 15px;
+    padding-left: 10px;
+    
+}
+
+.posts-followers-following span b{
+    padding-right: 4px;
+    font-weight: 500;
+}
+
+.posts-followers-following span {
+    padding-right: 35px;
+    /* font-weight: 500; */
+}
+
+.the-name{
+    padding-left: 10px;
+    font-size: 14px;
+    padding-top: 22px;
+    font-weight: 500;
+}
+
+.bio{
+    padding-left :10px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.highlights{
+    padding-top: 40px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.highlights .tree {
+   
+    
+    padding-right: 40px;
+}
+
+.highlights .tree img{
+    border-radius: 50%; 
+    width: 80px;
+    height: 80px;
+}
+
+.highlights .nature  img{
+    border-radius: 50%; 
+    width: 80px;
+    height: 80px;
+}
+
+
+.highlight-border{
+    position: sticky;
+    height:90px;
+    width: 90px;
+    top: 294px;
+    left: 195px;
+    border: 1px solid #c8c1c1;
+    border-radius: 50%;
+
+}
+
+.highlight-border1{
+    position: fixed;
+    height:90px;
+    width: 90px;
+    top: 293px;
+    left: 315px;
+    border: 1px solid #c8c1c1;
+    border-radius: 50%;
+   
+
+}
+
+.line{
+    width: 1400px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 60px;
+}
+
+.stuff{
+    color: #c8c1c1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 160px;
+
+}
+ 
+.stuff svg{
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+   
+}
+
+.stuff .posts span{
+    color: #262626;
+}
+
+.stuff span{
+    font-size: 13px;
+    padding-right:65px;
+    
+}
+
+.tree{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 2px;
+}
+
+.nature{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .grid-item {
+   
+    border: 15px solid #fafafa;
+    /* padding: 20px; */
+    /* font-size: 30px; */
+    text-align: center;
+  }
+
+  .grid-item img{
+      width: 100%;
+  }
 
 
 
