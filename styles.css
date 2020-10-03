@@ -475,7 +475,7 @@ main{
 
 
 .highlight-border{
-    position: sticky;
+    position: absolute;
     height:90px;
     width: 90px;
     top: 294px;
@@ -486,7 +486,7 @@ main{
 }
 
 .highlight-border1{
-    position: fixed;
+    position: absolute;
     height:90px;
     width: 90px;
     top: 293px;
